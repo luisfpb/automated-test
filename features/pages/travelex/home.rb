@@ -7,7 +7,5 @@ module Travelex
       (find("div.slick-active", match: :first)[:index].to_i+1).to_s
     end
 
-
-
   end
 end

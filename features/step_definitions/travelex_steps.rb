@@ -9,9 +9,9 @@ When(/^I risize the width of window to (\d+) px$/) do |width|
 end
 
 When(/^I swipe the options left$/) do
-  sleep 1
-  @home.slider.drag_by(-200,0)
-  sleep 1
+  sleep 2
+  @home.slider.drag_by(-210,0)
+  sleep 2
 end
 
 Then(/^I should see the option on possition (\d+)$/) do |possition|
