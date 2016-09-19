@@ -1,5 +1,6 @@
 case $driver
-when 'firefox'
+when "other"
+  #cofigure other browser here
 else
 	$capybara_driver = :chrome
 
