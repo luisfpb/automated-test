@@ -13,6 +13,7 @@
 
 ##Run: 
   In root folder of the project run
+  PS: Sometimes the travelex feature fails on swipe. I didn't have time to investigate!
    ```
    $bundle (to install dependency)
    $cucumber features (to run all features)
